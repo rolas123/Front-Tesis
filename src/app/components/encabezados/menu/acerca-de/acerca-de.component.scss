@@ -1,0 +1,63 @@
+#contenido-principal {
+  background: white;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  top: 20px !important;
+  margin-bottom: 5%;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.card-header {
+  background: #1565c0;
+  color: white;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+.card-tittle {
+  margin-top: 8px;
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+
+.card-content {
+  margin: 0 auto !important;
+  width: 95% !important;
+  margin-top: 15px;
+}
+
+.mensaje-principal,
+.div-desarrollo,
+.div-version {
+  color: #17202a;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.sistema {
+  color: #17202a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #contenido-principal {
+    height: 550px !important;
+    margin-bottom: 4%;
+  }
+
+  .card-content {
+    width: 90% !important;
+  }
+}

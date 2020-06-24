@@ -1,0 +1,30 @@
+<mat-toolbar class="mat-elevation-z8" class="toolbar">
+    <mat-toolbar-row class="row-uv" fxLayout="row" fxLayoutAlign="end center">
+        <span>Universidad Veracruzana</span>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="nombreSistema">
+        <button routerLink="/home-estudiante" mat-icon-button matTooltip="Inicio" matTooltipClass="sesion" matTooltipPosition="below">
+            <mat-icon>home</mat-icon>
+        </button>
+        <span class="ocultar-nombre-sistema">FMath</span>
+        <span class="alinearDerecha"></span>
+        <div>
+            <span id="nombreUsuario" class="ocultar-usuario">{{nombreEstudiante}}</span>
+            <button (click)="abrirMenu()" mat-icon-button matTooltip="Cuenta" matTooltipClass="sesion"
+                matTooltipPosition="below">
+                <mat-icon>account_circle</mat-icon>
+            </button>
+        </div>
+    </mat-toolbar-row>
+    <!--mat-toolbar-row div fxLayout="row" fxLayoutAlign="center center" class="mat-elevation-z1 toolbar-menu">
+        <button routerLink="/home-estudiante" mat-button class="boton-informacion">
+            <img style="padding-right: 7px;" src="assets/img/informacion.png">
+            <span>Conjuntos</span>
+        </button>
+        <button routerLink="/home-estudiante/practicar" mat-button class="botones" class="boton-practicar">
+            <img style="padding-right: 7px;" src="assets/img/practicar.png">
+            <span>Practicar</span>
+        </button-->
+    <!--/mat-toolbar-row-->
+</mat-toolbar>
+<div style="height: 30px;"></div>
